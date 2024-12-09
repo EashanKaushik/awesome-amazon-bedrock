@@ -7,11 +7,11 @@
 A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code samples, community driven repositories, guides, blogs, and other resources.
 
 > [!TIP]
-> This list is not officially maintained by Amazon Web Services (AWS), but is a community driven initiative to accelerate getting started on Amazon Bedrock."
+> This list is not officially maintained by Amazon Web Services (AWS), but is a community driven initiative to accelerate getting started on Amazon Bedrock.
 
-:exclamation: :exclamation: Official code samples are published on [awslabs](https://github.com/awslabs) or [aws-samples](https://github.com/aws-samples).
+:exclamation: :exclamation: Official AWS provided code samples are published on [awslabs](https://github.com/awslabs) or [aws-samples](https://github.com/aws-samples).
 
-:exclamation: :exclamation: Official blogs are published on AWS [Blogs](https://aws.amazon.com/blogs/).
+:exclamation: :exclamation: Official AWS provided blogs are published on [AWS Blogs](https://aws.amazon.com/blogs/).
 
 ## Contents
 
@@ -38,6 +38,7 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 - [Amazon Bedrock Agents Samples - GitHub](https://github.com/awslabs/amazon-bedrock-agent-samples)
 - [Amazon Bedrock Workshop - GitHub](https://github.com/aws-samples/amazon-bedrock-workshop)
 - [Amazon Bedrock or Amazon Sagemaker](https://docs.aws.amazon.com/decision-guides/latest/bedrock-or-sagemaker/bedrock-or-sagemaker.html)
+- [Choosing a generative AI service](https://docs.aws.amazon.com/decision-guides/latest/generative-ai-on-aws-how-to-choose/guide.html)
 
 ## Amazon Bedrock Agents
 
@@ -45,8 +46,8 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 
 |                 Feature                   |   Code Sample   |    AWS Blog     | 
 | ----------------------------------------- | --------------- | --------------- | 
-|           Amazon Bedrock Agents           | [aws-sample]()  |  [AWS Blog]()   |
-| Amazon Bedrock multi-agent collaboration  |   [awslabs]()   |  [AWS Blog]()   |
+|           Amazon Bedrock Agents           | [awslabs](https://github.com/awslabs/amazon-bedrock-agent-samples)  |                |
+| Amazon Bedrock multi-agent collaboration  |   [awslabs](https://github.com/awslabs/amazon-bedrock-agent-samples)   |  [AWS Blog](https://aws.amazon.com/blogs/aws/introducing-multi-agent-collaboration-capability-for-amazon-bedrock/)   |
 
 ### Community Resources
 
