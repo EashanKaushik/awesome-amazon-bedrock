@@ -1,7 +1,7 @@
 # Awesome Bedrock [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <p class="center">
-    <img src="/images/bedrock-logo.png" height="500" width="600"/>
+    <img src="/images/bedrock-logo.png"/>
 </p>
 
 A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code samples, community driven repositories, guides, blogs, and other resources.
