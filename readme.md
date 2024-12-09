@@ -10,6 +10,7 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 > This list is not officially maintained by Amazon Web Services (AWS), but is a community driven initiative to accelerate getting started on Amazon Bedrock."
 
 :exclamation: :exclamation: Official code samples are published on [awslabs](https://github.com/awslabs) or [aws-samples](https://github.com/aws-samples).
+
 :exclamation: :exclamation: Official blogs are published on AWS [Blogs](https://aws.amazon.com/blogs/).
 
 ## Contents
@@ -43,7 +44,7 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 ### Official AWS Code Samples and Blogs
 
 |                 Feature                   |   Code Sample   |    AWS Blog     | 
-| ----------------------------------------- | --------------- |                 | 
+| ----------------------------------------- | --------------- | --------------- | 
 |           Amazon Bedrock Agents           | [aws-sample]()  |  [AWS Blog]()   |
 | Amazon Bedrock multi-agent collaboration  |   [awslabs]()   |  [AWS Blog]()   |
 
