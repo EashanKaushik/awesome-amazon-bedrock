@@ -44,10 +44,25 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 
 ### Official AWS Code Samples and Blogs
 
-|                 Feature                   |   Code Sample   |    AWS Blog     | 
-| ----------------------------------------- | --------------- | --------------- | 
-|           Amazon Bedrock Agents           | [awslabs](https://github.com/awslabs/amazon-bedrock-agent-samples)  |                |
-| Amazon Bedrock multi-agent collaboration  |   [awslabs](https://github.com/awslabs/amazon-bedrock-agent-samples)   |  [AWS Blog](https://aws.amazon.com/blogs/aws/introducing-multi-agent-collaboration-capability-for-amazon-bedrock/)   |
+
+|                            Feature                             |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
+| -------------------------------------------------------------- | ---------------- | ---------------- | --------------------- |
+|           Amazon Bedrock Agents                                |   [awslabs](https://github.com/awslabs/amazon-bedrock-agent-samples)   |                |                       |
+| Amazon Bedrock multi-agent collaboration                       |   [awslabs](https://github.com/awslabs/amazon-bedrock-agent-samples)   |  [AWS Blog](https://aws.amazon.com/blogs/aws/introducing-multi-agent-collaboration-capability-for-amazon-bedrock/)   |                       |
+| Create Amazon Bedrock Agents with Function Defination          |   [aws-samples](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/01-create-agent-with-function-definition)   |        |                       |
+| Create Amazon Bedrock Agents with Open API Schema              |   [aws-samples](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/02-create-agent-with-api-schema)   |        |                       |
+| Amazon Bedrock Agents - Return of Control                      |   [aws-samples](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/03-create-agent-with-return-of-control)   |        |                       |
+| Associate Amazon KnowledgeBase to Amazon Bedrock Agents        |   [aws-samples](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/05-create-agent-with-knowledge-base-and-action-group)   |        |                       |
+| Inline Amazon Bedrock Agents                                   |   [aws-samples](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/05-create-agent-with-knowledge-base-and-action-group)   |        |                       |
+| Amazon Bedrock Agent with custom orchestration                 |                  |                  |                       |
+| Prompt and Session Attributes                                  |                  |                  |                       |
+| Advanced Prompt and Custom Orchestrator                        |                  |                  |                       |
+| Create Amazon Bedrock Agents with Amazon Bedrock Guardrails    |                  |                  |                       |
+| Amazon Bedrock Agents with Memory                              |                  |                  |                       |
+| Amazon Bedrock Agents with Code Interpreter                    |                  |                  |                       |
+| Amazon Bedrock Agents with user confirmation                   |                  |                  |                       |
+| Optimized vs "not yet" optimized FMs for Amazon Bedrock Agents |                  |                  |                       |
+
 
 ### Community Resources
 
