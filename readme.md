@@ -37,6 +37,8 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 - [Amazon Bedrock Samples - GitHub](https://github.com/aws-samples/amazon-bedrock-samples)
 - [Amazon Bedrock Agents Samples - GitHub](https://github.com/awslabs/amazon-bedrock-agent-samples)
 - [Amazon Bedrock Workshop - GitHub](https://github.com/aws-samples/amazon-bedrock-workshop)
+- [Amazon Bedrock Recipes](https://aws-samples.github.io/amazon-bedrock-samples/)
+- [Open Source Multi-Agentic Collaboration powered by Amazon Bedrock](https://aws-samples.github.io/amazon-bedrock-samples/workshop/open-source-l400/01_usecase_introduction/)
 - [Amazon Bedrock or Amazon Sagemaker](https://docs.aws.amazon.com/decision-guides/latest/bedrock-or-sagemaker/bedrock-or-sagemaker.html)
 - [Choosing a generative AI service](https://docs.aws.amazon.com/decision-guides/latest/generative-ai-on-aws-how-to-choose/guide.html)
 
@@ -47,13 +49,14 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 
 |                            Feature                             |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
 | -------------------------------------------------------------- | ---------------- | ---------------- | --------------------- |
-|           Amazon Bedrock Agents                                |   [awslabs](https://github.com/awslabs/amazon-bedrock-agent-samples)   |                |                       |
-| Amazon Bedrock multi-agent collaboration                       |   [awslabs](https://github.com/awslabs/amazon-bedrock-agent-samples)   |  [AWS Blog](https://aws.amazon.com/blogs/aws/introducing-multi-agent-collaboration-capability-for-amazon-bedrock/)   |                       |
-| Create Amazon Bedrock Agents with Function Defination          |   [aws-samples](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/01-create-agent-with-function-definition)   |        |                       |
-| Create Amazon Bedrock Agents with Open API Schema              |   [aws-samples](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/02-create-agent-with-api-schema)   |        |                       |
-| Amazon Bedrock Agents - Return of Control                      |   [aws-samples](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/03-create-agent-with-return-of-control)   |        |                       |
-| Associate Amazon KnowledgeBase to Amazon Bedrock Agents        |   [aws-samples](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/05-create-agent-with-knowledge-base-and-action-group)   |        |                       |
-| Inline Amazon Bedrock Agents                                   |   [aws-samples](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/05-create-agent-with-knowledge-base-and-action-group)   |        |                       |
+| Amazon Bedrock Agents                                          | [awslabs](https://github.com/awslabs/amazon-bedrock-agent-samples) | | [How Amazon Bedrock Agents work](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-how.html) |
+| Amazon Bedrock multi-agent collaboration                       | [awslabs](https://github.com/awslabs/amazon-bedrock-agent-samples) | [AWS Blog](https://aws.amazon.com/blogs/aws/introducing-multi-agent-collaboration-capability-for-amazon-bedrock/) | |
+|Conversational Builder - Create and Configure Agents using Natural Language|   |   |  [User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-create-cb.html) |
+| Create Amazon Bedrock Agents with Function Defination          | [aws-samples](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/01-create-agent-with-function-definition) |        |                       |
+| Create Amazon Bedrock Agents with Open API Schema              | [aws-samples](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/02-create-agent-with-api-schema) |      |                       |
+| Amazon Bedrock Agents - Return of Control                      | [aws-samples](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/03-create-agent-with-return-of-control) |        |                       |
+| Associate Amazon KnowledgeBase to Amazon Bedrock Agents        | [aws-samples](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/05-create-agent-with-knowledge-base-and-action-group) |        |                       |
+| Inline Amazon Bedrock Agents                                   | [aws-samples](https://aws-samples.github.io/amazon-bedrock-samples/agents-and-function-calling/bedrock-agents/features-examples/15-invoke-inline-agents/inline-agent-api-usage/) |        |  [User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-create-inline.html) |
 | Amazon Bedrock Agent with custom orchestration                 |                  |                  |                       |
 | Prompt and Session Attributes                                  |                  |                  |                       |
 | Advanced Prompt and Custom Orchestrator                        |                  |                  |                       |
