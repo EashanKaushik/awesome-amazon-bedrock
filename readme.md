@@ -26,7 +26,6 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 - [Amazon Bedrock Flows](#amazon-bedrock-flows)
 - [Amazon Bedrock Invocation Logging](#amazon-bedrock-invocation-logging)
 - [Amazon Bedrock Inference](#amazon-bedrock-inference)
-- [Amazon Bedrock Prompts](#amazon-bedrock-prompts)
 - [Foundational Models on Amazon Bedrock](#model-providors-on-amazon-bedrock)
 - [Amazon Bedrock Quotas](#amazon-bedrock-quotas)
 - [Additional Projects](#additional-projects)
@@ -75,14 +74,60 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 
 ## Amazon Bedrock Knowledge Bases
 
+New Amazon Bedrock capabilities enhance data processing and retrieval - [AWS Blog](https://aws.amazon.com/blogs/aws/new-amazon-bedrock-capabilities-enhance-data-processing-and-retrieval/)
+
+
 ### Official AWS code samples and Blogs
 
-| Feature  | Code Sample | Blog | 
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+|                            Feature                             |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
+| -------------------------------------------------------------- | ---------------- | --------------- | -------------------- |
+| Improve the relevance of query responses with a reranker model using Amazon SageMaker  | [aws-samples](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/rag/knowledge-bases/features-examples/03-advanced-concepts/reranking) | [AWS Blog](https://aws.amazon.com/blogs/machine-learning/improve-ai-assistant-response-accuracy-using-knowledge-bases-for-amazon-bedrock-and-a-reranking-model/) | |
+| Improve the relevance of query responses with a reranker model in Amazon Bedrock  | | [AWS Blog 1](https://aws.amazon.com/blogs/machine-learning/cohere-rerank-3-5-is-now-available-in-amazon-bedrock-through-rerank-api/) [AWS Blog 2](https://aws.amazon.com/blogs/aws/new-apis-in-amazon-bedrock-to-enhance-rag-applications-now-available/) | [User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/rerank.html) |
+| Chat with your document | [aws-sample](https://github.com/aws-samples/amazon-bedrock-samples/blob/main/rag/knowledge-bases/features-examples/00-zero-setup-chat-with-your-document/chat_with_document_kb.ipynb) | | [User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-chatdoc.html) |
+| Custom prompting with RetrieveAndGenerate API | [aws-sample](https://github.com/aws-samples/amazon-bedrock-samples/blob/main/rag/knowledge-bases/features-examples/01-rag-concepts/02_managed_rag_custom_prompting_and_no_of_results.ipynb) | | |
+| Hybrid Search | [aws-sample](https://github.com/aws-samples/amazon-bedrock-samples/blob/main/rag/knowledge-bases/features-examples/01-rag-concepts/03_customized-rag-retreive-api-hybrid-search-claude-3-sonnet-langchain.ipynb) | | |
+| Evaluate responses using RAGAS framework | [aws-sample](https://github.com/aws-samples/amazon-bedrock-samples/blob/main/rag/knowledge-bases/features-examples/01-rag-concepts/04_customized-rag-retreive-api-langchain-claude-evaluation-ragas.ipynb) | | |
+| Amazon Bedrock Data Automation as parser | | | |
+| Foundation models as a parser | | | |
 
-### Community Resources
+- Vector Stores
+
+
+
+- Build a knowledge base by connecting to a unstructured data source and Vector Stores
+
+|           API          |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
+| ---------------------- | ---------------- | --------------- | -------------------- |
+|       Retrieve API     | | | |
+| RetrieveAndGenerate API|  | | |
+
+|       Data Source         |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
+| ------------------------- | ---------------- | --------------- | -------------------- |
+|       Amazon S3           | | | |
+|      Confluence           | | | |
+|      Sharepoint           | | | |
+|      Salesforce           | | | |
+|      Web Crawler          | | | |
+|        Custom             | | | |
+
+|       Vector Database         |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
+| ------------------------------| ---------------- | --------------- | -------------------- |
+|  Amazon OpenSearch Serverless | 
+| Amazon Neptune Analytics (GraphRAG) |
+|       Amazon Aurora           |
+|       MongoDB Atlas           |
+|         Pinecone              |
+|    Redis Enterprise Cloud     |
+
+- Build a knowledge base by connecting to a structured data source
+
+|           API          |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
+| ---------------------- | ---------------- | --------------- | -------------------- |
+|   GenerateQuery API    | | | |
+
+
+- Build an Amazon Bedrock knowledge base with an Amazon Kendra GenAI index
+
 
 ## Amazon Bedrock Guardrails
 
@@ -141,16 +186,17 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 
 ### Community Resources
 
-## Amazon Bedrock Flows
+## Amazon Bedrock Flows and Amazon Bedrock Prompt Management
 
 ### Official AWS code samples and Blogs
 
-| Feature  | Code Sample | Blog | 
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-### Community Resources
+- [Build an end-to-end generative AI workflow with Amazon Bedrock Flows (User Guide)](https://docs.aws.amazon.com/bedrock/latest/userguide/flows.html)
+- [Amazon Bedrock Flows is now generally available with enhanced safety and traceability (AWS Blog)](https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-flows-is-now-generally-available-with-enhanced-safety-and-traceability/)
+- [Automate document processing with Amazon Bedrock Prompt Flows](https://aws.amazon.com/blogs/machine-learning/automate-document-processing-with-amazon-bedrock-prompt-flows-preview/)
+- [Streamline generative AI development in Amazon Bedrock with Prompt Management and Prompt Flows](https://aws.amazon.com/blogs/machine-learning/streamline-generative-ai-development-in-amazon-bedrock-with-prompt-management-and-prompt-flows-preview/)
+- [Evaluating prompts at scale with Prompt Management and Prompt Flows for Amazon Bedrock](https://aws.amazon.com/blogs/machine-learning/evaluating-prompts-at-scale-with-prompt-management-and-prompt-flows-for-amazon-bedrock/)
+- [Amazon Bedrock Prompt Management is now available in GA](https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-prompt-management-is-now-available-in-ga/)
+- [Video Demo :movie_camera:](https://www.youtube.com/watch?v=c9y9K8LsHq8)
 
 ## Amazon Bedrock Invocation Logging
 
@@ -164,17 +210,6 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 ### Community Resources
 
 ## Amazon Bedrock Inference
-
-### Official AWS code samples and Blogs
-
-| Feature  | Code Sample | Blog | 
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-### Community Resources
-
-## Amazon Bedrock Prompts
 
 ### Official AWS code samples and Blogs
 
