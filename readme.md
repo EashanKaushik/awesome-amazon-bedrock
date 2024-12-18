@@ -90,11 +90,9 @@ New Amazon Bedrock capabilities enhance data processing and retrieval - [AWS Blo
 | Amazon Bedrock Data Automation as parser | | | |
 | Foundation models as a parser | | | |
 
-- Vector Stores
 
 
-
-- Build a knowledge base by connecting to a unstructured data source and Vector Stores
+### Build a knowledge base by connecting to a unstructured data source and Vector Stores
 
 |           API          |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
 | ---------------------- | ---------------- | --------------- | -------------------- |
@@ -119,14 +117,14 @@ New Amazon Bedrock capabilities enhance data processing and retrieval - [AWS Blo
 |         Pinecone              |
 |    Redis Enterprise Cloud     |
 
-- Build a knowledge base by connecting to a structured data source
+### Build a knowledge base by connecting to a structured data source
 
 |           API          |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
 | ---------------------- | ---------------- | --------------- | -------------------- |
 |   GenerateQuery API    | | | |
 
 
-- Build an Amazon Bedrock knowledge base with an Amazon Kendra GenAI index
+### Build an Amazon Bedrock knowledge base with an Amazon Kendra GenAI index
 
 
 ## Amazon Bedrock Guardrails
