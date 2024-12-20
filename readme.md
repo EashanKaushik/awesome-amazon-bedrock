@@ -146,10 +146,19 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 
 ### Features
 
-| Feature  | Code Sample | Blog | 
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+|           Feature              |       Code Sample      |         AWS Blog        |       Bedrock Guide         |
+| ------------------------------ | ---------------------- | ----------------------- | --------------------------- |
+| Content filters | | | |
+| Denied topics | | | |
+| Word filters | | | |
+| Sensitive information filters | | | |
+| Contextual grounding check | | | |
+| Image content filters | | | |
+| Automated Reasoning checks | | | |
+| Apply tags to user input to filter content | | | |
+| Configure streaming response behavior to filter content | | | |
+| Include a guardrail with Converse API | | | |
+| Use the ApplyGuardrail API in your application | | | |
 
 ## Amazon Bedrock Evaluation
 
