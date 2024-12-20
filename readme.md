@@ -228,8 +228,8 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 
 ### Features
 
-| Feature  | Code Sample | Blog | 
-| ------------- | ------------- |
+|           Feature              |       Code Sample      |         AWS Blog        |       Bedrock Guide         |
+| ------------------------------ | ---------------------- | ----------------------- | --------------------------- |
 | Invoke Model API | | | |
 | Converse API | | | |
 | Batch Inferece | | | |
