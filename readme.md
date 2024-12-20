@@ -13,6 +13,12 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 
 :exclamation: :exclamation: Official AWS provided blogs are published on [AWS Blogs](https://aws.amazon.com/blogs/).
 
+:scroll: - AWS Blog
+:orange_book: - AWS official user guide
+:movie_camera: - AWS official video demo
+:computer: - AWS official code sample
+:beginner: - AWS official Workshop
+
 ## Contents
 
 - [Amazon Bedrock](#amazon-bedrock)
@@ -33,13 +39,13 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 
 ## Amazon Bedrock
 
-- Amazon Bedrock Samples - [aws-samples](https://github.com/aws-samples/amazon-bedrock-samples)
-- Amazon Bedrock Agents Samples - [awslabs](https://github.com/awslabs/amazon-bedrock-agent-samples)
-- Amazon Bedrock Workshop - [aws-samples](https://github.com/aws-samples/amazon-bedrock-workshop)
-- Amazon Bedrock Recipes - [Guide](https://aws-samples.github.io/amazon-bedrock-samples/)
-- Open Source Multi-Agentic Collaboration powered by Amazon Bedrock - [Workshop](https://aws-samples.github.io/amazon-bedrock-samples/workshop/open-source-l400/01_usecase_introduction/)
-- Amazon Bedrock or Amazon Sagemaker - [Decision Guide](https://docs.aws.amazon.com/decision-guides/latest/bedrock-or-sagemaker/bedrock-or-sagemaker.html)
-- Choosing a generative AI service - [Decision Guide](https://docs.aws.amazon.com/decision-guides/latest/generative-ai-on-aws-how-to-choose/guide.html)
+- Amazon Bedrock Samples - [:computer:](https://github.com/aws-samples/amazon-bedrock-samples)
+- Amazon Bedrock Agents Samples - [:computer:](https://github.com/awslabs/amazon-bedrock-agent-samples)
+- Amazon Bedrock Workshop - [:computer:](https://github.com/aws-samples/amazon-bedrock-workshop)
+- Amazon Bedrock Recipes - [:orange_book:](https://aws-samples.github.io/amazon-bedrock-samples/)
+- Open Source Multi-Agentic Collaboration powered by Amazon Bedrock - [:beginner:](https://aws-samples.github.io/amazon-bedrock-samples/workshop/open-source-l400/01_usecase_introduction/)
+- Amazon Bedrock or Amazon Sagemaker - [:orange_book:](https://docs.aws.amazon.com/decision-guides/latest/bedrock-or-sagemaker/bedrock-or-sagemaker.html)
+- Choosing a generative AI service - [:orange_book:](https://docs.aws.amazon.com/decision-guides/latest/generative-ai-on-aws-how-to-choose/guide.html)
 
 ## Amazon Bedrock Agents
 
@@ -57,7 +63,7 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 | Associate Amazon KnowledgeBase to Amazon Bedrock Agents        | [aws-samples](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/05-create-agent-with-knowledge-base-and-action-group) | | [User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-kb-add.html) |
 | Inline Amazon Bedrock Agents                                   | [aws-samples](https://aws-samples.github.io/amazon-bedrock-samples/agents-and-function-calling/bedrock-agents/features-examples/15-invoke-inline-agents/inline-agent-api-usage/) | | [User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-create-inline.html) |
 | Configure agent to request information from user | | | [User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-user-input.html) |
-| Prompt and Session Attributes                                  |                  | [aws-samples](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/06-prompt-and-session-attributes) | [User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-session-state.html) |
+| Prompt and Session Attributes                                  | [aws-samples](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/06-prompt-and-session-attributes) | | [User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-session-state.html) |
 | Amazon Bedrock Agent with custom orchestration | [aws-samples](https://aws-samples.github.io/amazon-bedrock-samples/agents-and-function-calling/bedrock-agents/features-examples/14-create-agent-with-custom-orchestration/custom_orchestration_example/) | [AWS Blog](https://aws.amazon.com/blogs/machine-learning/getting-started-with-amazon-bedrock-agents-custom-orchestrator/) | [User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-custom-orchestration.html) |
 | Advanced Prompt and Custom Parser                        | [aws-samples](https://github.com/aws-samples/amazon-bedrock-samples/blob/main/agents-and-function-calling/bedrock-agents/features-examples/07-advanced-prompts-and-custom-parsers/07-custom-prompt-and-lambda-parsers.ipynb) | | [User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/advanced-prompts.html)|
 | Create Amazon Bedrock Agents with Amazon Bedrock Guardrails    | [aws-samples](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/08-create-agent-with-guardrails) | | [User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-guardrail.html) |
