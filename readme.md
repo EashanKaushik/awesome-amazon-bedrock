@@ -14,10 +14,15 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 :exclamation: :exclamation: Official AWS provided blogs are published on [AWS Blogs](https://aws.amazon.com/blogs/).
 
 :scroll: - AWS Blog
+
 :orange_book: - AWS official user guide
+
 :movie_camera: - AWS official video demo
+
 :computer: - AWS official code sample
+
 :beginner: - AWS official Workshop
+
 
 ## Contents
 
@@ -39,13 +44,13 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 
 ## Amazon Bedrock
 
-- Amazon Bedrock Samples - [:computer:](https://github.com/aws-samples/amazon-bedrock-samples)
-- Amazon Bedrock Agents Samples - [:computer:](https://github.com/awslabs/amazon-bedrock-agent-samples)
-- Amazon Bedrock Workshop - [:computer:](https://github.com/aws-samples/amazon-bedrock-workshop)
-- Amazon Bedrock Recipes - [:orange_book:](https://aws-samples.github.io/amazon-bedrock-samples/)
-- Open Source Multi-Agentic Collaboration powered by Amazon Bedrock - [:beginner:](https://aws-samples.github.io/amazon-bedrock-samples/workshop/open-source-l400/01_usecase_introduction/)
-- Amazon Bedrock or Amazon Sagemaker - [:orange_book:](https://docs.aws.amazon.com/decision-guides/latest/bedrock-or-sagemaker/bedrock-or-sagemaker.html)
-- Choosing a generative AI service - [:orange_book:](https://docs.aws.amazon.com/decision-guides/latest/generative-ai-on-aws-how-to-choose/guide.html)
+- Amazon Bedrock Samples [:computer:](https://github.com/aws-samples/amazon-bedrock-samples)
+- Amazon Bedrock Agents Samples [:computer:](https://github.com/awslabs/amazon-bedrock-agent-samples)
+- Amazon Bedrock Workshop [:computer:](https://github.com/aws-samples/amazon-bedrock-workshop)
+- Amazon Bedrock Recipes [:orange_book:](https://aws-samples.github.io/amazon-bedrock-samples/)
+- Open Source Multi-Agentic Collaboration powered by Amazon Bedrock [:beginner:](https://aws-samples.github.io/amazon-bedrock-samples/workshop/open-source-l400/01_usecase_introduction/)
+- Amazon Bedrock or Amazon Sagemaker [:orange_book:](https://docs.aws.amazon.com/decision-guides/latest/bedrock-or-sagemaker/bedrock-or-sagemaker.html)
+- Choosing a generative AI service [:orange_book:](https://docs.aws.amazon.com/decision-guides/latest/generative-ai-on-aws-how-to-choose/guide.html)
 
 ## Amazon Bedrock Agents
 
