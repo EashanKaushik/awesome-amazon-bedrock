@@ -27,26 +27,22 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 - [Amazon Bedrock Invocation Logging](#amazon-bedrock-invocation-logging)
 - [Amazon Bedrock Inference](#amazon-bedrock-inference)
 - [Foundational Models on Amazon Bedrock](#model-providors-on-amazon-bedrock)
-- [Amazon Bedrock Quotas](#amazon-bedrock-quotas)
 - [Additional Projects](#additional-projects)
 - [Customer Success Stories](#customer-success-stories)
 
 ## Amazon Bedrock
 
-- [Amazon Bedrock Samples - GitHub](https://github.com/aws-samples/amazon-bedrock-samples)
-- [Amazon Bedrock Agents Samples - GitHub](https://github.com/awslabs/amazon-bedrock-agent-samples)
-- [Amazon Bedrock Workshop - GitHub](https://github.com/aws-samples/amazon-bedrock-workshop)
-- [Amazon Bedrock Recipes](https://aws-samples.github.io/amazon-bedrock-samples/)
-- [Open Source Multi-Agentic Collaboration powered by Amazon Bedrock](https://aws-samples.github.io/amazon-bedrock-samples/workshop/open-source-l400/01_usecase_introduction/)
-- [Amazon Bedrock or Amazon Sagemaker](https://docs.aws.amazon.com/decision-guides/latest/bedrock-or-sagemaker/bedrock-or-sagemaker.html)
-- [Choosing a generative AI service](https://docs.aws.amazon.com/decision-guides/latest/generative-ai-on-aws-how-to-choose/guide.html)
+- Amazon Bedrock Samples - [aws-samples](https://github.com/aws-samples/amazon-bedrock-samples)
+- Amazon Bedrock Agents Samples - [awslabs](https://github.com/awslabs/amazon-bedrock-agent-samples)
+- Amazon Bedrock Workshop - [aws-samples](https://github.com/aws-samples/amazon-bedrock-workshop)
+- Amazon Bedrock Recipes - [Guide](https://aws-samples.github.io/amazon-bedrock-samples/)
+- Open Source Multi-Agentic Collaboration powered by Amazon Bedrock - [Workshop](https://aws-samples.github.io/amazon-bedrock-samples/workshop/open-source-l400/01_usecase_introduction/)
+- Amazon Bedrock or Amazon Sagemaker - [Decision Guide](https://docs.aws.amazon.com/decision-guides/latest/bedrock-or-sagemaker/bedrock-or-sagemaker.html)
+- Choosing a generative AI service - [Decision Guide](https://docs.aws.amazon.com/decision-guides/latest/generative-ai-on-aws-how-to-choose/guide.html)
 
 ## Amazon Bedrock Agents
 
-Amazon Bedrock multi-agent collaboration - [Research Paper](https://arxiv.org/pdf/2412.05449)
-
-### Official AWS Code Samples and Blogs
-
+### Features
 
 |                            Feature                             |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
 | -------------------------------------------------------------- | ---------------- | ---------------- | --------------------- |
@@ -71,15 +67,14 @@ Amazon Bedrock multi-agent collaboration - [Research Paper](https://arxiv.org/pd
 
 ### Projects and Resources
 
-- [Build generative AI agents with Amazon Bedrock, Amazon DynamoDB, Amazon Kendra, Amazon Lex, and LangChain](https://github.com/aws-samples/generative-ai-amazon-bedrock-langchain-agent-example)
-- [Multi-Agent Orchestrator](https://github.com/awslabs/multi-agent-orchestrator)
+- Amazon Bedrock multi-agent collaboration - [Research Paper](https://arxiv.org/pdf/2412.05449)
+- Build generative AI agents with Amazon Bedrock, Amazon DynamoDB, Amazon Kendra, Amazon Lex, and LangChain - [aws-samples](https://github.com/aws-samples/generative-ai-amazon-bedrock-langchain-agent-example)
+- Multi-Agent Orchestrator - [awslabs](https://github.com/awslabs/multi-agent-orchestrator)
 
 ## Amazon Bedrock Knowledge Bases
 
-New Amazon Bedrock capabilities enhance data processing and retrieval - [AWS Blog](https://aws.amazon.com/blogs/aws/new-amazon-bedrock-capabilities-enhance-data-processing-and-retrieval/)
 
-
-### Official AWS code samples and Blogs
+### Features
 
 |                            Feature                             |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
 | -------------------------------------------------------------- | ---------------- | --------------- | -------------------- |
@@ -149,15 +144,12 @@ New Amazon Bedrock capabilities enhance data processing and retrieval - [AWS Blo
 
 ## Amazon Bedrock Guardrails
 
-### Official AWS code samples and Blogs
+### Features
 
 | Feature  | Code Sample | Blog | 
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
-
-### Community Resources
-
 
 ## Amazon Bedrock Evaluation
 
@@ -168,8 +160,9 @@ New Amazon Bedrock capabilities enhance data processing and retrieval - [AWS Blo
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 
-### Community Resources
+### Projects and Resources
 
+- New Amazon Bedrock capabilities enhance data processing and retrieval - [AWS Blog](https://aws.amazon.com/blogs/aws/new-amazon-bedrock-capabilities-enhance-data-processing-and-retrieval/)
 
 ## Amazon Bedrock Custom Models
 
@@ -208,13 +201,13 @@ New Amazon Bedrock capabilities enhance data processing and retrieval - [AWS Blo
 
 ### Official AWS code samples and Blogs
 
-- [Build an end-to-end generative AI workflow with Amazon Bedrock Flows (User Guide)](https://docs.aws.amazon.com/bedrock/latest/userguide/flows.html)
-- [Amazon Bedrock Flows is now generally available with enhanced safety and traceability (AWS Blog)](https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-flows-is-now-generally-available-with-enhanced-safety-and-traceability/)
-- [Automate document processing with Amazon Bedrock Prompt Flows](https://aws.amazon.com/blogs/machine-learning/automate-document-processing-with-amazon-bedrock-prompt-flows-preview/)
-- [Streamline generative AI development in Amazon Bedrock with Prompt Management and Prompt Flows](https://aws.amazon.com/blogs/machine-learning/streamline-generative-ai-development-in-amazon-bedrock-with-prompt-management-and-prompt-flows-preview/)
-- [Evaluating prompts at scale with Prompt Management and Prompt Flows for Amazon Bedrock](https://aws.amazon.com/blogs/machine-learning/evaluating-prompts-at-scale-with-prompt-management-and-prompt-flows-for-amazon-bedrock/)
-- [Amazon Bedrock Prompt Management is now available in GA](https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-prompt-management-is-now-available-in-ga/)
-- [Video Demo :movie_camera:](https://www.youtube.com/watch?v=c9y9K8LsHq8)
+- Build an end-to-end generative AI workflow with Amazon Bedrock Flows - [User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/flows.html)
+- Amazon Bedrock Flows is now generally available with enhanced safety and traceability - [AWS Blog](https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-flows-is-now-generally-available-with-enhanced-safety-and-traceability/)
+- Automate document processing with Amazon Bedrock Prompt Flows - [AWS Blog](https://aws.amazon.com/blogs/machine-learning/automate-document-processing-with-amazon-bedrock-prompt-flows-preview/)
+- Streamline generative AI development in Amazon Bedrock with Prompt Management and Prompt Flows - [AWS Blog](https://aws.amazon.com/blogs/machine-learning/streamline-generative-ai-development-in-amazon-bedrock-with-prompt-management-and-prompt-flows-preview/)
+- Evaluating prompts at scale with Prompt Management and Prompt Flows for Amazon Bedrock - [AWS Blog](https://aws.amazon.com/blogs/machine-learning/evaluating-prompts-at-scale-with-prompt-management-and-prompt-flows-for-amazon-bedrock/)
+- Amazon Bedrock Prompt Management is now available in GA - [AWS Blog](https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-prompt-management-is-now-available-in-ga/)
+- Video Demo [:movie_camera:](https://www.youtube.com/watch?v=c9y9K8LsHq8)
 
 ## Amazon Bedrock Invocation Logging
 
@@ -246,10 +239,6 @@ New Amazon Bedrock capabilities enhance data processing and retrieval - [AWS Blo
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
-
-### Community Resources
-
-## Amazon Bedrock Quotas
 
 ## Contribute
 
