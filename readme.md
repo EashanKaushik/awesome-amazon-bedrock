@@ -26,8 +26,9 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 - [Amazon Bedrock Flows](#amazon-bedrock-flows)
 - [Amazon Bedrock Invocation Logging](#amazon-bedrock-invocation-logging)
 - [Amazon Bedrock Inference](#amazon-bedrock-inference)
+- [Amazon Bedrock Security](#amazon-bedrock-security)
 - [Foundational Models on Amazon Bedrock](#model-providors-on-amazon-bedrock)
-- [Additional Projects](#additional-projects)
+- [Additional Projects and Guides](#additional-projects)
 - [Customer Success Stories](#customer-success-stories)
 
 ## Amazon Bedrock
@@ -72,7 +73,6 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 - Multi-Agent Orchestrator - [awslabs](https://github.com/awslabs/multi-agent-orchestrator)
 
 ## Amazon Bedrock Knowledge Bases
-
 
 ### Features
 
@@ -141,6 +141,9 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 
 ### 3. Build an Amazon Bedrock knowledge base with an Amazon Kendra GenAI index
 
+### Projects and Resources
+
+- New Amazon Bedrock capabilities enhance data processing and retrieval - [AWS Blog](https://aws.amazon.com/blogs/aws/new-amazon-bedrock-capabilities-enhance-data-processing-and-retrieval/)
 
 ## Amazon Bedrock Guardrails
 
@@ -162,92 +165,100 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 
 ## Amazon Bedrock Evaluation
 
-### Official AWS code samples and Blogs
+### Features
 
-| Feature  | Code Sample | Blog | 
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+|           Feature              |       Code Sample      |         AWS Blog        |       Bedrock Guide         |
+| ------------------------------ | ---------------------- | ----------------------- | --------------------------- |
+| Automatic model evaluation jobs | | | |
+| Model evaluation jobs that use human workers | | | |
+| Model evaluation jobs that use a judge model | | | |
+| Knowledge Base evaluations that use Large Language Models (LLMs) | | | |
+| Required Cross Origin Resource Sharing (CORS) permissions on S3 buckets | | | |
 
-### Projects and Resources
-
-- New Amazon Bedrock capabilities enhance data processing and retrieval - [AWS Blog](https://aws.amazon.com/blogs/aws/new-amazon-bedrock-capabilities-enhance-data-processing-and-retrieval/)
 
 ## Amazon Bedrock Custom Models
 
-### Official AWS code samples and Blogs
+### Features
 
-| Feature  | Code Sample | Blog | 
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-### Community Resources
+|           Feature              |       Code Sample      |         AWS Blog        |       Bedrock Guide         |
+| ------------------------------ | ---------------------- | ----------------------- | --------------------------- |
+| Fine-tuning | | | |
+| Continued pre-training | | | |
+| Model distillation | | | |
+| Custom model import | | | |
 
 ## Amazon Bedrock Model Catalog
 
-### Official AWS code samples and Blogs
+### Features
 
-| Feature  | Code Sample | Blog | 
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-### Community Resources
+- Use Amazon Bedrock tooling with Amazon SageMaker JumpStart models - [AWS Blog](https://aws.amazon.com/blogs/machine-learning/use-amazon-bedrock-tooling-with-amazon-sagemaker-jumpstart-models/)
 
 ## Amazon Bedrock Studio
 
-### Official AWS code samples and Blogs
-
-| Feature  | Code Sample | Blog | 
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-### Community Resources
+- Build a Generative AI App in Minutes with Amazon Bedrock Studio | Step-by-Step Tutorial - [:movie_camera:](https://www.youtube.com/watch?v=ZxAQXpSFwKk)
 
 ## Amazon Bedrock Flows and Amazon Bedrock Prompt Management
 
-### Official AWS code samples and Blogs
-
 - Build an end-to-end generative AI workflow with Amazon Bedrock Flows - [User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/flows.html)
+- Construct and store reusable prompts with Prompt management in Amazon Bedrock - [User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-management.html)
 - Amazon Bedrock Flows is now generally available with enhanced safety and traceability - [AWS Blog](https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-flows-is-now-generally-available-with-enhanced-safety-and-traceability/)
 - Automate document processing with Amazon Bedrock Prompt Flows - [AWS Blog](https://aws.amazon.com/blogs/machine-learning/automate-document-processing-with-amazon-bedrock-prompt-flows-preview/)
 - Streamline generative AI development in Amazon Bedrock with Prompt Management and Prompt Flows - [AWS Blog](https://aws.amazon.com/blogs/machine-learning/streamline-generative-ai-development-in-amazon-bedrock-with-prompt-management-and-prompt-flows-preview/)
 - Evaluating prompts at scale with Prompt Management and Prompt Flows for Amazon Bedrock - [AWS Blog](https://aws.amazon.com/blogs/machine-learning/evaluating-prompts-at-scale-with-prompt-management-and-prompt-flows-for-amazon-bedrock/)
+- Prompts Evaluation with Prompt Management & Prompt Flows - [aws-sample](https://github.com/aws-samples/amazon-bedrock-samples/blob/main/articles-guides/prompt-engineering/Prompt_Management_Flows/Prompts_evaluation_with_Prompt_Management_Flows.ipynb)
 - Amazon Bedrock Prompt Management is now available in GA - [AWS Blog](https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-prompt-management-is-now-available-in-ga/)
-- Video Demo [:movie_camera:](https://www.youtube.com/watch?v=c9y9K8LsHq8)
+- Video Demo - [:movie_camera:](https://www.youtube.com/watch?v=c9y9K8LsHq8)
 
 ## Amazon Bedrock Invocation Logging
 
-### Official AWS code samples and Blogs
+### Features
 
-| Feature  | Code Sample | Blog | 
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-### Community Resources
+|           Feature              |       Code Sample      |         AWS Blog        |       Bedrock Guide         |
+| ------------------------------ | ---------------------- | ----------------------- | --------------------------- |
+| Monitor model invocation using CloudWatch Logs | | | |
+| Monitor knowledge bases using CloudWatch Logs | | | |
+| Monitor Amazon Bedrock Guardrails using CloudWatch Metrics | | | |
+| Monitor Amazon Bedrock Studio using CloudWatch Logs | | | |
+| Amazon Bedrock runtime metrics | | | |
+| CloudWatch metrics for Amazon Bedrock | | | |
+| Monitor Amazon Bedrock job state changes using Amazon EventBridge | | | |
+| Monitor Amazon Bedrock API calls using CloudTrail | | | |
 
 ## Amazon Bedrock Inference
 
-### Official AWS code samples and Blogs
+### Features
 
 | Feature  | Code Sample | Blog | 
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Invoke Model API | | | |
+| Converse API | | | |
+| Batch Inferece | | | |
+| Cross Region Inference | | | |
+| Provisioned Throughput | | | |
 
-### Community Resources
+## Amazon Bedrock Security
 
-## Model Providors on Amazon Bedrock
+- Amazon Bedrock abuse detection - [User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/abuse-detection.html)
 
-### Official AWS code samples and Blogs
+## Foundational Models on Amazon Bedrock
+
+### Features
 
 | Feature  | Code Sample | Blog | 
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  |
+
+
+## Additional Projects and Guides
+
+- Prompt engineering concepts - [User Guie](https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-engineering-guidelines.html)
+- Tagging Amazon Bedrock resources - [User Guie](https://docs.aws.amazon.com/bedrock/latest/userguide/tagging.html)
+- Troubleshooting Amazon Bedrock API Error Codes - [User Guie](https://docs.aws.amazon.com/bedrock/latest/userguide/troubleshooting-api-error-codes.html)
+- Create Amazon Bedrock resources with AWS CloudFormation - [User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/creating-resources-with-cloudformation.html)
+
+## Customer Success Stories
+
 
 ## Contribute
 
