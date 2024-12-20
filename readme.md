@@ -244,8 +244,8 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 
 ### Features
 
-| Feature  | Code Sample | Blog | 
-| ------------- | ------------- |
+|   Feature     |  Code Sample  |     Blog      | 
+| ------------- | ------------- | ------------- |
 | Content Cell  | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  | Content Cell  |
 
