@@ -6,12 +6,12 @@
 
 A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code samples, community driven repositories, guides, blogs, and other resources.
 
-> [!TIP]
-> This list is not officially maintained by Amazon Web Services (AWS), but is a community driven initiative to accelerate getting started on Amazon Bedrock.
-
 :exclamation: :exclamation: Official AWS provided code samples are published on [awslabs](https://github.com/awslabs) or [aws-samples](https://github.com/aws-samples).
 
 :exclamation: :exclamation: Official AWS provided blogs are published on [AWS Blogs](https://aws.amazon.com/blogs/).
+
+> [!TIP]
+> This list is not officially maintained by Amazon Web Services (AWS), but is a community driven initiative to accelerate getting started on Amazon Bedrock.
 
 :scroll: - AWS Blog
 
