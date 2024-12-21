@@ -195,7 +195,7 @@ AWS workshop :beginner:
 
 ### Projects and Resources
 
-- Custom model hyperparameters [:orange_book:]](https://docs.aws.amazon.com/bedrock/latest/userguide/custom-models-hp.html)
+- Custom model hyperparameters [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/custom-models-hp.html)
 
 ## Amazon Bedrock Model Catalog
 
