@@ -16,6 +16,7 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 
 ## Contents
 
+- [Glossary](#ç)
 - [Amazon Bedrock](#amazon-bedrock)
 - [Amazon Bedrock Agents](#amazon-bedrock-agents)
 - [Amazon Bedrock Knowledge Bases](#amazon-bedrock-knowledge-bases)
@@ -254,6 +255,7 @@ AWS workshop :beginner:
 
 - Supported foundation models in Amazon Bedrock [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html)
 - Model support by feature [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/models-features.html)
+- Model support by Region [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html)
 - Model lifecycle [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html)
 
 ## Additional Projects and Guides
@@ -265,9 +267,11 @@ AWS workshop :beginner:
 - Open Source Multi-Agentic Collaboration powered by Amazon Bedrock [:beginner:](https://aws-samples.github.io/amazon-bedrock-samples/workshop/open-source-l400/01_usecase_introduction/)
 - Amazon Bedrock or Amazon Sagemaker [:orange_book:](https://docs.aws.amazon.com/decision-guides/latest/bedrock-or-sagemaker/bedrock-or-sagemaker.html)
 - Choosing a generative AI service [:orange_book:](https://docs.aws.amazon.com/decision-guides/latest/generative-ai-on-aws-how-to-choose/guide.html)
+- Feature support by Region [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/features-regions.html)
 
 ## Customer Success Stories
 
+- AWS provided customer innovation stories [:orange_book:](https://aws.amazon.com/solutions/case-studies/generative-ai-customer-videos/?customer-references-cards.sort-by=item.additionalFields.sortDate&customer-references-cards.sort-order=desc&awsf.customer-references-location=*all&awsf.customer-references-industry=*all&awsf.customer-references-use-case=category%23gen-ai&awsf.language=language%23english&awsf.content-type=*all#:~:text=Find%20more%20customer%20innovation%20stories)
 
 ## Contribute
 
