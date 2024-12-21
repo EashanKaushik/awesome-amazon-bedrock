@@ -9,18 +9,10 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 
 > [!IMPORTANT]  
 > This list is not officially maintained by Amazon Web Services (AWS), but is a community driven initiative to accelerate getting started on Amazon Bedrock.
-> :exclamation: Official AWS provided code samples are published on [awslabs](https://github.com/awslabs) or [aws-samples](https://github.com/aws-samples).
-> :exclamation: Official AWS provided blogs are published on [AWS Blogs](https://aws.amazon.com/blogs/).
 
-AWS Blog :scroll:
+:exclamation: Official AWS provided code samples are published on [awslabs](https://github.com/awslabs) or [aws-samples](https://github.com/aws-samples).
 
-AWS official :orange_book: :orange_book:
-
-AWS official video demo :movie_camera:
-
-AWS official code sample :computer:
-
-AWS official Workshop :beginner:
+:exclamation: Official AWS provided blogs are published on [AWS Blogs](https://aws.amazon.com/blogs/).
 
 ## Contents
 
@@ -39,6 +31,18 @@ AWS official Workshop :beginner:
 - [Foundational Models on Amazon Bedrock](#model-providors-on-amazon-bedrock)
 - [Additional Projects and Guides](#additional-projects)
 - [Customer Success Stories](#customer-success-stories)
+
+## Glossary
+
+AWS blog :scroll:
+
+AWS guide :orange_book:
+
+AWS video demo :movie_camera:
+
+AWS code sample :computer:
+
+AWS workshop :beginner:
 
 ## Amazon Bedrock
 
@@ -153,8 +157,6 @@ AWS official Workshop :beginner:
 
 ## Amazon Bedrock Guardrails
 
-### Features
-
 |           Feature              |       Code Sample      |         AWS Blog        |       Bedrock Guide         |
 | ------------------------------ | ---------------------- | ----------------------- | --------------------------- |
 | Content filters | | | |
@@ -170,8 +172,6 @@ AWS official Workshop :beginner:
 | Use the ApplyGuardrail API in your application | | | |
 
 ## Amazon Bedrock Evaluation
-
-### Features
 
 |           Feature              |       Code Sample      |         AWS Blog        |       Bedrock Guide         |
 | ------------------------------ | ---------------------- | ----------------------- | --------------------------- |
@@ -193,9 +193,11 @@ AWS official Workshop :beginner:
 | Model distillation | | | |
 | Custom model import | | | |
 
-## Amazon Bedrock Model Catalog
+### Projects and Resources
 
-### Features
+- Custom model hyperparameters [:orange_book:]](https://docs.aws.amazon.com/bedrock/latest/userguide/custom-models-hp.html)
+
+## Amazon Bedrock Model Catalog
 
 - Use Amazon Bedrock tooling with Amazon SageMaker JumpStart models [:scroll:](https://aws.amazon.com/blogs/machine-learning/use-amazon-bedrock-tooling-with-amazon-sagemaker-jumpstart-models/)
 
@@ -216,8 +218,6 @@ AWS official Workshop :beginner:
 - Video Demo [:movie_camera:](https://www.youtube.com/watch?v=c9y9K8LsHq8)
 
 ## Amazon Bedrock Invocation Logging
-
-### Features
 
 |           Feature              |       Code Sample      |         AWS Blog        |       Bedrock Guide         |
 | ------------------------------ | ---------------------- | ----------------------- | --------------------------- |
@@ -242,19 +242,19 @@ AWS official Workshop :beginner:
 | Cross Region Inference | | | |
 | Provisioned Throughput | | | |
 
+### Projects and Resources
+
+- Inference request parameters and response fields for foundation models [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters.html)
+
 ## Amazon Bedrock Security
 
 - Amazon Bedrock abuse detection [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/abuse-detection.html)
 
 ## Foundational Models on Amazon Bedrock
 
-### Features
-
-|   Feature     |  Code Sample  |     Blog      | 
-| ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-
+- Supported foundation models in Amazon Bedrock [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html)
+- Model support by feature [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/models-features.html)
+- Model lifecycle [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html)
 
 ## Additional Projects and Guides
 
