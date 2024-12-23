@@ -295,7 +295,13 @@ AWS workshop :beginner:
 
 |      Category      |           Foundational Models              |      Release Date      |       Blog      |         Research Paper        |
 | :----------------: | :----------------------------------------- | :--------------------: | :-------------: | :---------------------------: | 
-
+| Image | Stable Diffusion 3.5 Large | 18 Dec 2024 | |
+| Image | Stable Image Core 1.0 | 18 Dec 2024 | |
+| Image | Stable Image Ultra 1.0 | 18 Dec 2024 | |
+| Image | SD3 Large 1.0 | 04 Sep 2024 | |
+| Image | Stable Image Core 1.0 | 04 Sep 2024 | |
+| Image | Stable Image Ultra 1.0| 04 Sep 2024 | |
+| Image | SDXL 1.0 | 26 Jul 2023 | |
 
 ## Additional Projects and Guides
 
