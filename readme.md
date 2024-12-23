@@ -14,9 +14,11 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 
 :exclamation: Official AWS provided blogs are published on [AWS Blogs](https://aws.amazon.com/blogs/).
 
+:exclamation: Features & models are added to the list only when they are Generally Available (GA).
+
 ## Contents
 
-- [Glossary](#ç)
+- [Glossary](#glossary)
 - [Amazon Bedrock](#amazon-bedrock)
 - [Amazon Bedrock Agents](#amazon-bedrock-agents)
 - [Amazon Bedrock Knowledge Bases](#amazon-bedrock-knowledge-bases)
@@ -257,6 +259,44 @@ AWS workshop :beginner:
 - Model support by feature [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/models-features.html)
 - Model support by Region [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html)
 - Model lifecycle [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html)
+
+### Amazon 
+
+|      Category      |           Foundational Models              |      Release Date      |       Blog      |         Research Paper        |
+| ------------------ | ------------------------------------------ | ---------------------- | --------------- | ----------------------------- | 
+| Text | Amazon Titan Text Premier | 5/7/2024 | [:scroll:](https://aws.amazon.com/blogs/aws/build-rag-and-agent-based-generative-ai-applications-with-new-amazon-titan-text-premier-model-available-in-amazon-bedrock/) | |
+
+### AI21 Labs
+
+|      Category      |           Foundational Models              |      Release Date      |       Blog      |         Research Paper        |
+| ------------------ | ------------------------------------------ | ---------------------- | --------------- | ----------------------------- | 
+
+### Anthropic
+
+|      Category      |           Foundational Models              |      Release Date      |       Blog      |         Research Paper        |
+| ------------------ | ------------------------------------------ | ---------------------- | --------------- | ----------------------------- | 
+
+### Cohere
+
+|      Category      |           Foundational Models              |      Release Date      |       Blog      |         Research Paper        |
+| ------------------ | ------------------------------------------ | ---------------------- | --------------- | ----------------------------- | 
+
+
+### Meta
+
+|      Category      |           Foundational Models              |      Release Date      |       Blog      |         Research Paper        |
+| ------------------ | ------------------------------------------ | ---------------------- | --------------- | ----------------------------- | 
+
+### Mistral AI
+
+|      Category      |           Foundational Models              |      Release Date      |       Blog      |         Research Paper        |
+| ------------------ | ------------------------------------------ | ---------------------- | --------------- | ----------------------------- | 
+
+### Stability AI
+
+|      Category      |           Foundational Models              |      Release Date      |       Blog      |         Research Paper        |
+| ------------------ | ------------------------------------------ | ---------------------- | --------------- | ----------------------------- | 
+
 
 ## Additional Projects and Guides
 
