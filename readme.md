@@ -264,7 +264,20 @@ AWS workshop :beginner:
 
 |      Category      |           Foundational Models              |      Release Date      |       Blog      |         Research Paper        |
 | :----------------: | :------------------------------------------- | :----------------------: | :---------------: | :-----------------------------: | 
-| Text | Amazon Titan Text Premier | 5/7/2024 | [:scroll:](https://aws.amazon.com/blogs/aws/build-rag-and-agent-based-generative-ai-applications-with-new-amazon-titan-text-premier-model-available-in-amazon-bedrock/) | |
+| Image-to-image | Nova Canvas | 03 Dec 2024 | |
+| Text-to-video, Image-to-video | Nova Reel | 03 Dec 2024 | |
+| Text, Image, Video-to-text | Nova Lite |  03 Dec 2024 | |
+| Text | Nova Micro | 03 Dec 2024 | |
+| Text, Image, Video-to-text | Nova Pro | 03 Dec 2024 | |
+| Rerank | Rerank 1.0 | 01 Dec 2024 | |
+| Text | Amazon Titan Text Premier | 26 Aug 2024 | [:scroll:](https://aws.amazon.com/blogs/aws/build-rag-and-agent-based-generative-ai-applications-with-new-amazon-titan-text-premier-model-available-in-amazon-bedrock/) | |
+| Text-to-image, Image-to-image, Background removal, Image conditioning | Titan Image Generator G1 | 06 Aug 2024 | |
+| Embedding | Titan Text Embeddings V2 | 30 Apr 2024 | |
+| Text-to-image, Image-to-image | Titan Image Generator G1 | 29 Nov 2023 | |
+| Embeddings | Titan Multimodal Embeddings G1 | 29 Nov 2023 | |
+| Text | Titan Text G1 - Express | 29 Nov 2023 | |
+| Text | Titan Text G1 - Lite | 29 Nov 2023 | |
+| Embeddings | Titan Embeddings G1 - Text | 28 Sep 2023 | |
 
 ### AI21 Labs
 
