@@ -59,7 +59,7 @@ AWS workshop :beginner:
 ### Features
 
 |                            Feature                             |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
-| -------------------------------------------------------------- | ---------------- | ---------------- | --------------------- |
+| :--------------------------------------------------------------: | :----------------: | :----------------: | :---------------------: |
 | Amazon Bedrock Agents                                          | [:computer:](https://github.com/awslabs/amazon-bedrock-agent-samples/tree/main/examples/amazon-bedrock-agents) | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-how.html) |
 | Amazon Bedrock multi-agent collaboration | [:computer:](https://github.com/awslabs/amazon-bedrock-agent-samples/tree/main/examples/amazon-bedrock-multi-agent-collaboration) | [:scroll:](https://aws.amazon.com/blogs/aws/introducing-multi-agent-collaboration-capability-for-amazon-bedrock/) | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-multi-agent-collaboration.html) |
 | Conversational Builder - Create and Configure Agents using Natural Language | | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-create-cb.html) |
