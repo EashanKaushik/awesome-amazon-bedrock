@@ -59,7 +59,7 @@ AWS workshop :beginner:
 ### Features
 
 |                            Feature                             |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
-| :------------------------------------------------------------: | :--------------: | :-------------: | :------------------: |
+| :------------------------------------------------------------- | :--------------: | :-------------: | :------------------: |
 | Amazon Bedrock Agents                                          | [:computer:](https://github.com/awslabs/amazon-bedrock-agent-samples/tree/main/examples/amazon-bedrock-agents) | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-how.html) |
 | Amazon Bedrock multi-agent collaboration | [:computer:](https://github.com/awslabs/amazon-bedrock-agent-samples/tree/main/examples/amazon-bedrock-multi-agent-collaboration) | [:scroll:](https://aws.amazon.com/blogs/aws/introducing-multi-agent-collaboration-capability-for-amazon-bedrock/) | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-multi-agent-collaboration.html) |
 | Conversational Builder - Create and Configure Agents using Natural Language | | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-create-cb.html) |
@@ -90,7 +90,7 @@ AWS workshop :beginner:
 ### Features
 
 |                            Feature                             |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
-| :------------------------------------------------------------: | :--------------: | :-------------: | :------------------: |
+| :------------------------------------------------------------- | :--------------: | :-------------: | :------------------: |
 | Improve the relevance of query responses with a reranker model using Amazon SageMaker  | [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/rag/knowledge-bases/features-examples/03-advanced-concepts/reranking) | [:scroll:](https://aws.amazon.com/blogs/machine-learning/improve-ai-assistant-response-accuracy-using-knowledge-bases-for-amazon-bedrock-and-a-reranking-model/) | |
 | Improve the relevance of query responses with a reranker model in Amazon Bedrock  | | [:scroll:](https://aws.amazon.com/blogs/machine-learning/cohere-rerank-3-5-is-now-available-in-amazon-bedrock-through-rerank-api/) [:scroll:](https://aws.amazon.com/blogs/aws/new-apis-in-amazon-bedrock-to-enhance-rag-applications-now-available/) | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/rerank.html) |
 | Chat with your document | [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/blob/main/rag/knowledge-bases/features-examples/00-zero-setup-chat-with-your-document/chat_with_document_kb.ipynb) | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-chatdoc.html) |
@@ -112,7 +112,7 @@ AWS workshop :beginner:
 ### Chunking
 
 |           Chunking          |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
-| :-------------------------: | :--------------: | :-------------: | :------------------: |
+| :-------------------------- | :--------------: | :-------------: | :------------------: |
 |       Custom     | | | |
 | Default Chunking | | | |
 | Sematic Chunking | | | |
@@ -120,15 +120,15 @@ AWS workshop :beginner:
 
 
 
-### 1. Build a knowledge base by connecting to a unstructured data source and Vector Stores
+### Build a knowledge base by connecting to a unstructured data source and Vector Stores
 
 |           API          |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
-| :--------------------: | :--------------: | :-------------: | :------------------: |
+| :--------------------- | :--------------: | :-------------: | :------------------: |
 |       Retrieve API     | | | |
 | RetrieveAndGenerate API|  | | |
 
 |       Data Source         |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
-| :-----------------------: | :--------------: | :-------------: | :------------------: |
+| :------------------------ | :--------------: | :-------------: | :------------------: |
 |       Amazon S3           | | | |
 |      Confluence           | | | |
 |      Sharepoint           | | | |
@@ -137,7 +137,7 @@ AWS workshop :beginner:
 |        Custom             | | | |
 
 |       Vector Database         |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
-| :---------------------------: | :--------------: | :-------------: | :------------------: |
+| :---------------------------- | :--------------: | :-------------: | :------------------: |
 |  Amazon OpenSearch Serverless | 
 | Amazon Neptune Analytics (GraphRAG) |
 |       Amazon Aurora           |
@@ -145,14 +145,14 @@ AWS workshop :beginner:
 |         Pinecone              |
 |    Redis Enterprise Cloud     |
 
-### 2. Build a knowledge base by connecting to a structured data source
+### Build a knowledge base by connecting to a structured data source
 
 |           API          |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
-| :--------------------: | :--------------: | :-------------: | :------------------: |
+| :--------------------- | :--------------: | :-------------: | :------------------: |
 |   GenerateQuery API    | | | |
 
 
-### 3. Build an Amazon Bedrock knowledge base with an Amazon Kendra GenAI index
+### Build an Amazon Bedrock knowledge base with an Amazon Kendra GenAI index
 
 ### Projects and Resources
 
@@ -161,7 +161,7 @@ AWS workshop :beginner:
 ## Amazon Bedrock Guardrails
 
 |           Feature              |       Code Sample      |         AWS Blog        |       Bedrock Guide         |
-| :----------------------------: | :--------------------: | :---------------------: | :-------------------------: |
+| :----------------------------- | :--------------------: | :---------------------: | :-------------------------: |
 | Content filters | | | |
 | Denied topics | | | |
 | Word filters | | | |
@@ -177,7 +177,7 @@ AWS workshop :beginner:
 ## Amazon Bedrock Evaluation
 
 |           Feature              |       Code Sample      |         AWS Blog        |       Bedrock Guide         |
-| :----------------------------: | :--------------------: | :---------------------: | :-------------------------: |
+| :----------------------------- | :--------------------: | :---------------------: | :-------------------------: |
 | Automatic model evaluation jobs | | | |
 | Model evaluation jobs that use human workers | | | |
 | Model evaluation jobs that use a judge model | | | |
@@ -190,7 +190,7 @@ AWS workshop :beginner:
 ### Features
 
 |           Feature              |       Code Sample      |         AWS Blog        |       Bedrock Guide         |
-| :----------------------------: | :--------------------: | :---------------------: | :-------------------------: |
+| :----------------------------- | :--------------------: | :---------------------: | :-------------------------: |
 | Fine-tuning | | | |
 | Continued pre-training | | | |
 | Model distillation | | | |
@@ -223,7 +223,7 @@ AWS workshop :beginner:
 ## Amazon Bedrock Invocation Logging
 
 |           Feature              |       Code Sample      |         AWS Blog        |       Bedrock Guide         |
-| :----------------------------: | :--------------------: | :---------------------: | :-------------------------: |
+| :----------------------------- | :--------------------: | :---------------------: | :-------------------------: |
 | Monitor model invocation using CloudWatch Logs | | | |
 | Monitor knowledge bases using CloudWatch Logs | | | |
 | Monitor Amazon Bedrock Guardrails using CloudWatch Metrics | | | |
@@ -238,7 +238,7 @@ AWS workshop :beginner:
 ### Features
 
 |           Feature              |       Code Sample      |         AWS Blog        |       Bedrock Guide         |
-| :----------------------------: | :--------------------: | :---------------------: | :-------------------------: |
+| :----------------------------- | :--------------------: | :---------------------: | :-------------------------: |
 | Invoke Model API | | | |
 | Converse API | | | |
 | Batch Inferece | | | |
@@ -263,38 +263,38 @@ AWS workshop :beginner:
 ### Amazon 
 
 |      Category      |           Foundational Models              |      Release Date      |       Blog      |         Research Paper        |
-| :----------------: | :------------------------------------------: | :----------------------: | :---------------: | :-----------------------------: | 
+| :----------------: | :------------------------------------------- | :----------------------: | :---------------: | :-----------------------------: | 
 | Text | Amazon Titan Text Premier | 5/7/2024 | [:scroll:](https://aws.amazon.com/blogs/aws/build-rag-and-agent-based-generative-ai-applications-with-new-amazon-titan-text-premier-model-available-in-amazon-bedrock/) | |
 
 ### AI21 Labs
 
 |      Category      |           Foundational Models              |      Release Date      |       Blog      |         Research Paper        |
-| :----------------: | :----------------------------------------: | :--------------------: | :-------------: | :---------------------------: | 
+| :----------------: | :----------------------------------------- | :--------------------: | :-------------: | :---------------------------: | 
 
 ### Anthropic
 
 |      Category      |           Foundational Models              |      Release Date      |       Blog      |         Research Paper        |
-| :----------------: | :----------------------------------------: | :--------------------: | :-------------: | :---------------------------: | 
+| :----------------: | :----------------------------------------- | :--------------------: | :-------------: | :---------------------------: | 
 
 ### Cohere
 
 |      Category      |           Foundational Models              |      Release Date      |       Blog      |         Research Paper        |
-| :----------------: | :----------------------------------------: | :--------------------: | :-------------: | :---------------------------: | 
+| :----------------: | :----------------------------------------- | :--------------------: | :-------------: | :---------------------------: | 
 
 ### Meta
 
 |      Category      |           Foundational Models              |      Release Date      |       Blog      |         Research Paper        |
-| :----------------: | :----------------------------------------: | :--------------------: | :-------------: | :---------------------------: | 
+| :----------------: | :----------------------------------------- | :--------------------: | :-------------: | :---------------------------: | 
 :
 ### Mistral AI
 
 |      Category      |           Foundational Models              |      Release Date      |       Blog      |         Research Paper        |
-| :----------------: | :----------------------------------------: | :--------------------: | :-------------: | :---------------------------: | 
+| :----------------: | :----------------------------------------- | :--------------------: | :-------------: | :---------------------------: | 
 
 ### Stability AI
 
 |      Category      |           Foundational Models              |      Release Date      |       Blog      |         Research Paper        |
-| :----------------: | :----------------------------------------: | :--------------------: | :-------------: | :---------------------------: | 
+| :----------------: | :----------------------------------------- | :--------------------: | :-------------: | :---------------------------: | 
 
 
 ## Additional Projects and Guides
