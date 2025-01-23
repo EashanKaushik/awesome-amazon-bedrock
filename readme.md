@@ -1,4 +1,4 @@
-# Awesome Bedrock [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+ # Awesome Bedrock [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <p class="center">
     <img src="/images/bedrock-logo.png"/>
