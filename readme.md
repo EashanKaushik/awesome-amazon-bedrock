@@ -22,6 +22,7 @@ A curated list of awesome [Amazon Bedrock](https://aws.amazon.com/bedrock/) code
 - [Amazon Bedrock](#amazon-bedrock)
 - [Amazon Bedrock Agents](#amazon-bedrock-agents)
 - [Amazon Bedrock Knowledge Bases](#amazon-bedrock-knowledge-bases)
+- [Amazon Bedrock Data Automation](#amazon-bedrock-data-automation)
 - [Amazon Bedrock Guardrails](#amazon-bedrock-guardrails)
 - [Amazon Bedrock Evaluation](#amazon-bedrock-evaluation)
 - [Amazon Bedrock Custom Models](#amazon-bedrock-custom-models)
@@ -47,12 +48,13 @@ AWS code sample :computer:
 
 AWS workshop :beginner:
 
-## Amazon Bedrock
+## Project and Samples
 
 - Amazon Bedrock Samples [:computer:](https://github.com/aws-samples/amazon-bedrock-samples)
 - Amazon Bedrock Agents Samples [:computer:](https://github.com/awslabs/amazon-bedrock-agent-samples)
 - Amazon Bedrock Workshop [:computer:](https://github.com/aws-samples/amazon-bedrock-workshop)
 - Amazon Bedrock Recipes [:orange_book:](https://aws-samples.github.io/amazon-bedrock-samples/)
+- Party Rock [AWS](https://partyrock.aws/)
 
 ## Amazon Bedrock Agents
 
@@ -61,26 +63,26 @@ AWS workshop :beginner:
 |                            Feature                             | Date Released |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
 | :------------------------------------------------------------- | :------------:| :--------------: | :-------------: | :------------------: |
 | Amazon Bedrock Agents                                          | Jully 2023| [:computer:](https://github.com/awslabs/amazon-bedrock-agent-samples/tree/main/examples/) | [:scroll:](https://aws.amazon.com/blogs/aws/agents-for-amazon-bedrock-is-now-available-with-improved-control-of-orchestration-and-visibility-into-reasoning/) | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-how.html) |
-| Amazon Bedrock multi-agent collaboration | Dec 2024| [:computer:](https://github.com/awslabs/amazon-bedrock-agent-samples/tree/main/examples/) | [:scroll:](https://aws.amazon.com/blogs/aws/introducing-multi-agent-collaboration-capability-for-amazon-bedrock/) | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-multi-agent-collaboration.html) |
-| Conversational Builder - Create and Configure Agents using Natural Language | Oct 2024| | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-create-cb.html) |
+| Associate Amazon KnowledgeBase to Amazon Bedrock Agents        | | [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/05-create-agent-with-knowledge-base-and-action-group) | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-kb-add.html) |
+| Optimize performance for Amazon Bedrock agents using a single knowledge base | Mar 2024 | | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-optimize-performance.html) |
 | Create Amazon Bedrock Agents with Function Defination          | April 2024 | [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/01-create-agent-with-function-definition) | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-action-function.html) |
 | Create Amazon Bedrock Agents with Open API Schema              | | [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/02-create-agent-with-api-schema) | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-api-schema.html) |
 | Amazon Bedrock Agents - Return of Control                      | April 2024| [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/03-create-agent-with-return-of-control) | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-returncontrol.html)  |
-| Amazon Bedrock Agents - User Confirmation                      | | [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/11-create-agents-with-action-user-confirmation)| | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-userconfirmation.html) |
-| Associate Amazon KnowledgeBase to Amazon Bedrock Agents        | | [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/05-create-agent-with-knowledge-base-and-action-group) | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-kb-add.html) |
-| Inline Amazon Bedrock Agents                                   | Nov 2024 | [:computer:](https://aws-samples.github.io/amazon-bedrock-samples/agents-and-function-calling/bedrock-agents/features-examples/15-invoke-inline-agents/inline-agent-api-usage/) | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-create-inline.html) |
-| Prompt and Session Attributes                                  | | [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/06-prompt-and-session-attributes) | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-session-state.html) |
-| Amazon Bedrock Agent with custom orchestration | Nov 2024 | [:computer:](https://aws-samples.github.io/amazon-bedrock-samples/agents-and-function-calling/bedrock-agents/features-examples/14-create-agent-with-custom-orchestration/custom_orchestration_example/) | [:scroll:](https://aws.amazon.com/blogs/machine-learning/getting-started-with-amazon-bedrock-agents-custom-orchestrator/) | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-custom-orchestration.html) |
-| Advanced Prompt and Custom Parser                        | | [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/blob/main/agents-and-function-calling/bedrock-agents/features-examples/07-advanced-prompts-and-custom-parsers/07-custom-prompt-and-lambda-parsers.ipynb) | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/advanced-prompts.html)|
 | Create Amazon Bedrock Agents with Amazon Bedrock Guardrails    | May 2024 | [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/08-create-agent-with-guardrails) | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-guardrail.html) |
+| Powertools for AWS Lambda (Python) adds support for Agents for Amazon Bedrock | May 2024 | | | [:orange_book:](https://docs.powertools.aws.dev/lambda/python/latest/core/event_handler/bedrock_agents/) |
+| Configure agent to request information from user to increase accuracy of function prediction | Aug 2024 | | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-user-input.html) |
+| Amazon Bedrock Agents - User Confirmation                      | | [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/11-create-agents-with-action-user-confirmation)| | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-userconfirmation.html) |
+| AWS Chatbot now allows you to interact with Amazon Bedrock agents from Microsoft Teams and Slack | Sept 2024 | | | [:orange_book:](https://aws.amazon.com/about-aws/whats-new/2024/09/aws-chatbot-amazon-bedrock-agent-microsoft-teams-slack/) |
+| Conversational Builder - Create and Configure Agents using Natural Language | Oct 2024| | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-create-cb.html) |
 | Amazon Bedrock Agents with Memory                              | Oct 2024 | [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/09-create-agent-with-memory) | [:scroll:](https://aws.amazon.com/blogs/aws/agents-for-amazon-bedrock-now-support-memory-retention-and-code-interpretation-preview/) | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-memory.html) |
 | Amazon Bedrock Agents with Code Interpreter                    | Oct 2024 | [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/10-create-agent-with-code-interpreter) | [:scroll:](https://aws.amazon.com/blogs/aws/agents-for-amazon-bedrock-now-support-memory-retention-and-code-interpretation-preview/) | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-code-interpretation.html) |
-| Optimized vs "not yet" optimized FMs for Amazon Bedrock Agents | | [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/12-models-not-yet-optimized-for-bedrock-agents) | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/working-with-models-not-yet-optimized.html) |
-| Optimize performance for Amazon Bedrock agents using a single knowledge base | Mar 2024 | | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-optimize-performance.html) |
+| Inline Amazon Bedrock Agents                                   | Nov 2024 | [:computer:](https://aws-samples.github.io/amazon-bedrock-samples/agents-and-function-calling/bedrock-agents/features-examples/15-invoke-inline-agents/inline-agent-api-usage/) | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-create-inline.html) |
+| Amazon Bedrock Agent with custom orchestration | Nov 2024 | [:computer:](https://aws-samples.github.io/amazon-bedrock-samples/agents-and-function-calling/bedrock-agents/features-examples/14-create-agent-with-custom-orchestration/custom_orchestration_example/) | [:scroll:](https://aws.amazon.com/blogs/machine-learning/getting-started-with-amazon-bedrock-agents-custom-orchestrator/) | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-custom-orchestration.html) |
+| Advanced Prompt and Custom Parser                        | | [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/blob/main/agents-and-function-calling/bedrock-agents/features-examples/07-advanced-prompts-and-custom-parsers/07-custom-prompt-and-lambda-parsers.ipynb) | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/advanced-prompts.html)|
 | Amazon Bedrock Agents, Flows, and Knowledge Bases now supports Latency Optimized Models | Dec 2024 | | | [:orange_book:](https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-bedrock-agents-flows-knowledge-optimized-models/) |
-| Powertools for AWS Lambda (Python) adds support for Agents for Amazon Bedrock | May 2024 | | | [:orange_book:](https://docs.powertools.aws.dev/lambda/python/latest/core/event_handler/bedrock_agents/) |
-| AWS Chatbot now allows you to interact with Amazon Bedrock agents from Microsoft Teams and Slack | Sept 2024 | | | [:orange_book:](https://aws.amazon.com/about-aws/whats-new/2024/09/aws-chatbot-amazon-bedrock-agent-microsoft-teams-slack/) |
-| Configure agent to request information from user to increase accuracy of function prediction | Aug 2024 | | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-user-input.html) |
+| Amazon Bedrock multi-agent collaboration | Dec 2024| [:computer:](https://github.com/awslabs/amazon-bedrock-agent-samples/tree/main/examples/) | [:scroll:](https://aws.amazon.com/blogs/aws/introducing-multi-agent-collaboration-capability-for-amazon-bedrock/) | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-multi-agent-collaboration.html) |
+| Optimized vs "not yet" optimized FMs for Amazon Bedrock Agents | | [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/12-models-not-yet-optimized-for-bedrock-agents) | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/working-with-models-not-yet-optimized.html) |
+| Prompt and Session Attributes                                  | | [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples/06-prompt-and-session-attributes) | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-session-state.html) |
 
 ### Projects and Resources
 
@@ -92,112 +94,128 @@ AWS workshop :beginner:
 
 ### Features
 
-|                            Feature                             |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
-| :------------------------------------------------------------- | :--------------: | :-------------: | :------------------: |
-| Improve the relevance of query responses with a reranker model using Amazon SageMaker  | [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/rag/knowledge-bases/features-examples/03-advanced-concepts/reranking) | [:scroll:](https://aws.amazon.com/blogs/machine-learning/improve-ai-assistant-response-accuracy-using-knowledge-bases-for-amazon-bedrock-and-a-reranking-model/) | |
-| Improve the relevance of query responses with a reranker model in Amazon Bedrock  | | [:scroll:](https://aws.amazon.com/blogs/machine-learning/cohere-rerank-3-5-is-now-available-in-amazon-bedrock-through-rerank-api/) [:scroll:](https://aws.amazon.com/blogs/aws/new-apis-in-amazon-bedrock-to-enhance-rag-applications-now-available/) | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/rerank.html) |
-| Chat with your document | [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/blob/main/rag/knowledge-bases/features-examples/00-zero-setup-chat-with-your-document/chat_with_document_kb.ipynb) | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-chatdoc.html) |
-| Custom prompting with RetrieveAndGenerate API | [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/blob/main/rag/knowledge-bases/features-examples/01-rag-concepts/02_managed_rag_custom_prompting_and_no_of_results.ipynb) | | |
-| Hybrid Search | [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/blob/main/rag/knowledge-bases/features-examples/01-rag-concepts/03_customized-rag-retreive-api-hybrid-search-claude-3-sonnet-langchain.ipynb) | | |
-| Evaluate responses using RAGAS framework | [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/blob/main/rag/knowledge-bases/features-examples/01-rag-concepts/04_customized-rag-retreive-api-langchain-claude-evaluation-ragas.ipynb) | | |
-| Amazon Bedrock Data Automation as parser | | | |
-| Foundation models as a parser | | | |
-| Custom transformation during ingestion via AWS Lambda function | | | |
-| Custom connectors and ingestion of streaming data | | | |
-| Metadata filtering | | [:scroll:](https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-knowledge-bases-now-supports-metadata-filtering-to-improve-retrieval-accuracy/) | |
-| Metadata with CSV files | | | |
-| Autogenerated Metadata filtering | | | |
-| Dynamic Metadata filtering (tool use) | | | |
-| Query Reformulation | | | |
-| Contextual Grounding | | | |
-| Binary Embeddings | | [:scroll:](https://aws.amazon.com/blogs/machine-learning/build-cost-effective-rag-applications-with-binary-embeddings-in-amazon-titan-text-embeddings-v2-amazon-opensearch-serverless-and-amazon-bedrock-knowledge-bases/) | |
+|                            Feature                             |  Date Released   |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
+| :------------------------------------------------------------- | :--------------: | :--------------: | :-------------: | :------------------: |
+| Customize prompts and number of retrieval results | March 2024 | | | |
+| Hybrid Search | March 2024 | [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/blob/main/rag/knowledge-bases/features-examples/01-rag-concepts/03_customized_rag_retreive_api_hybrid_search_langchain.ipynb) | | |
+| Metadata filtering | March 2024 | | [:scroll:](https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-knowledge-bases-now-supports-metadata-filtering-to-improve-retrieval-accuracy/) | |
+| Improve the relevance of query responses with a reranker model using Amazon SageMaker  | |    [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/rag/knowledge-bases/features-examples/03-advanced-concepts/reranking) | [:scroll:](https://aws.amazon.com/blogs/machine-learning/improve-ai-assistant-response-accuracy-using-knowledge-bases-for-amazon-bedrock-and-a-reranking-model/) | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/rerank.html) |
+| Improve the relevance of query responses with a reranker model in Amazon Bedrock  | | | [:scroll:](https://aws.amazon.com/blogs/machine-learning/cohere-rerank-3-5-is-now-available-in-amazon-bedrock-through-rerank-api/) [:scroll:](https://aws.amazon.com/blogs/aws/new-apis-in-amazon-bedrock-to-enhance-rag-applications-now-available/) | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/rerank.html) |
+| Chat with your document | |   [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/blob/main/rag/knowledge-bases/features-examples/00-zero-setup-chat-with-your-document/chat_with_document_kb.ipynb) | | [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-chatdoc.html) |
+| Choose the best performing knowledge base using Amazon Bedrock evaluations | | | | |
+| Custom transformation during ingestion via AWS Lambda function | |    | | |
+| Metadata with CSV files | |   | | |
+| Query Reformulation | |  | | |
+| Contextual Grounding | | | | |
+| Binary Embeddings vs Floating Embeddings | | | [:scroll:](https://aws.amazon.com/blogs/machine-learning/build-cost-effective-rag-applications-with-binary-embeddings-in-amazon-titan-text-embeddings-v2-amazon-opensearch-serverless-and-amazon-bedrock-knowledge-bases/) | |
+
+### Sources
+
+|       Data Source         |   Date Released   |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
+| :------------------------ | :---------------: | :--------------: | :-------------: | :------------------: |
+|       Amazon S3           | | | | |
+|      Confluence           | | | | |
+|      Sharepoint           | | | | |
+|      Salesforce           | | | | |
+|      Web Crawler          | | | | |
+|        Custom             | | | | |
+
+### Parsing Strategy
+
+|       Data Source         |   Date Released   |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
+| :------------------------ | :---------------: | :--------------: | :-------------: | :------------------: |
+| Foundation models as a parser | | | | | |
+| Amazon Bedrock default parser | | | | | |
 
 ### Chunking
 
-|           Chunking          |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
-| :-------------------------- | :--------------: | :-------------: | :------------------: |
-|       Custom     | | | |
-| Default Chunking | | | |
-| Sematic Chunking | | | |
-| Hierarchical Chunking | | | |
+|           Chunking          |   Date Released   |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
+| :-------------------------- | :---------------: | :--------------: | :-------------: | :------------------: |
+| Default chunking | | | | |
+| Fixed-size chunking | | | | |
+| Custom chunking  | | | | |
+| Sematic chunking | | | | |
+| Hierarchical chunking | | | | |
 
+### Vector Stores
 
-
-### Build a knowledge base by connecting to a unstructured data source and Vector Stores
-
-|           API          |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
-| :--------------------- | :--------------: | :-------------: | :------------------: |
-|       Retrieve API     | | | |
-| RetrieveAndGenerate API|  | | |
-
-|       Data Source         |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
-| :------------------------ | :--------------: | :-------------: | :------------------: |
-|       Amazon S3           | | | |
-|      Confluence           | | | |
-|      Sharepoint           | | | |
-|      Salesforce           | | | |
-|      Web Crawler          | | | |
-|        Custom             | | | |
-
-|       Vector Database         |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
-| :---------------------------- | :--------------: | :-------------: | :------------------: |
-|  Amazon OpenSearch Serverless | 
-| Amazon Neptune Analytics (GraphRAG) |
-|       Amazon Aurora           |
-|       MongoDB Atlas           |
-|         Pinecone              |
-|    Redis Enterprise Cloud     |
+|       Vector Database         |   Date Released   |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
+| :---------------------------- | :---------------: | :--------------: | :-------------: | :------------------: |
+|  Amazon OpenSearch Serverless | | | | |
+|       Amazon Aurora           | Dec 2023 | | | |
+|       MongoDB Atlas           | May 2024 | | | |
+|         Pinecone              | | | | |
+|    Redis Enterprise Cloud     | | | | |
+| Amazon Neptune Analytics (GraphRAG) | | | | |
 
 ### Build a knowledge base by connecting to a structured data source
 
 |           API          |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
 | :--------------------- | :--------------: | :-------------: | :------------------: |
-|   GenerateQuery API    | | | |
 
 
 ### Build an Amazon Bedrock knowledge base with an Amazon Kendra GenAI index
 
+
+### Retrieval API's
+
+|           API          |   Date Released   |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
+| :--------------------- | :---------------: | :--------------: | :-------------: | :------------------: |
+|       Retrieve API     | | | | |
+| RetrieveAndGenerate API | | | | |
+| RetrieveAndGenerateStream API | | | | |
+|   GenerateQuery API   | | | | |
+| Rerank API | | | | |
+
 ### Projects and Resources
 
 - New Amazon Bedrock capabilities enhance data processing and retrieval [:scroll:](https://aws.amazon.com/blogs/aws/new-amazon-bedrock-capabilities-enhance-data-processing-and-retrieval/)
+- Keyword search is all you need: Achieving RAG-Level Performance without vector databases using agentic tool use []()
+- Evaluate responses using RAGAS framework [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/blob/main/rag/knowledge-bases/features-examples/01-rag-concepts/04_customized-rag-retreive-api-langchain-claude-evaluation-ragas.ipynb)
+- Implementing Amazon Bedrock Knowledge Bases in support of GDPR (right to be forgotten) requests [:scroll:](https://aws.amazon.com/blogs/machine-learning/implementing-knowledge-bases-for-amazon-bedrock-in-support-of-gdpr-right-to-be-forgotten-requests/)
+
+## Amazon Bedrock Data Automation
+
+|           Feature             |   Date Released   |    Code Sample   |    AWS Blog     |    Bedrock Guide     |
+| :---------------------------- | :---------------: | :--------------: | :-------------: | :------------------: |
+
 
 ## Amazon Bedrock Guardrails
 
-|           Feature              |       Code Sample      |         AWS Blog        |       Bedrock Guide         |
-| :----------------------------- | :--------------------: | :---------------------: | :-------------------------: |
-| Content filters | | | |
-| Denied topics | | | |
-| Word filters | | | |
-| Sensitive information filters | | | |
-| Contextual grounding check | | | |
-| Image content filters | | | |
-| Automated Reasoning checks | | | |
-| Apply tags to user input to filter content | | | |
-| Configure streaming response behavior to filter content | | | |
-| Include a guardrail with Converse API | | | |
-| Use the ApplyGuardrail API in your application | | | |
+|           Feature              |   Date Released   |       Code Sample      |         AWS Blog        |       Bedrock Guide         |
+| :----------------------------- | :---------------: | :--------------------: | :---------------------: | :-------------------------: |
+| Content filters | | | | |
+| Denied topics | | | | |
+| Word filters | | | | |
+| Sensitive information filters | | | | |
+| Contextual grounding check | | | | |
+| Image content filters | | | | |
+| Automated Reasoning checks | | | | |
+| Apply tags to user input to filter content | | | | |
+| Configure streaming response behavior to filter content | | | | |
+| Include a guardrail with Converse API | | | | |
+| Use the ApplyGuardrail API in your application | | | | |
 
 ## Amazon Bedrock Evaluation
 
-|           Feature              |       Code Sample      |         AWS Blog        |       Bedrock Guide         |
-| :----------------------------- | :--------------------: | :---------------------: | :-------------------------: |
-| Automatic model evaluation jobs | | | |
-| Model evaluation jobs that use human workers | | | |
-| Model evaluation jobs that use a judge model | | | |
-| Knowledge Base evaluations that use Large Language Models (LLMs) | | | |
-| Required Cross Origin Resource Sharing (CORS) permissions on S3 buckets | | | |
-
+|           Feature              |   Date Released   |       Code Sample      |         AWS Blog        |       Bedrock Guide         |
+| :----------------------------- | :---------------: | :--------------------: | :---------------------: | :-------------------------: |
+| Automatic Models: Programmatic | April 2024 | | | |
+| Automatic Models: Model as a judge | April 2024 | | | |
+| Human Models: AWS Managed work team | April 2024 | | | |
+| Human Models: Bring your own work team | April 2024 | | | |
+| Automatic Knowledge Base: Model as a judge | | | | |
 
 ## Amazon Bedrock Custom Models
 
 ### Features
 
-|           Feature              |       Code Sample      |         AWS Blog        |       Bedrock Guide         |
-| :----------------------------- | :--------------------: | :---------------------: | :-------------------------: |
-| Fine-tuning | | | |
-| Continued pre-training | | | |
-| Model distillation | | | |
-| Custom model import | | | |
+|           Feature              |   Date Released   |       Code Sample      |         AWS Blog        |       Bedrock Guide         |
+| :----------------------------- | :---------------: | :--------------------: | :---------------------: | :-------------------------: |
+| Continued pre-training | Nov 2023 | | | |
+| Custom model import | April 2024 | | | |
+| Fine-tuning | | | | |
+| Model distillation | | | | |
 
 ### Projects and Resources
 
@@ -240,13 +258,13 @@ AWS workshop :beginner:
 
 ### Features
 
-|           Feature              |       Code Sample      |         AWS Blog        |       Bedrock Guide         |
-| :----------------------------- | :--------------------: | :---------------------: | :-------------------------: |
-| Invoke Model API | | | |
-| Converse API | | | |
-| Batch Inferece | | | |
-| Cross Region Inference | | | |
-| Provisioned Throughput | | | |
+|           Feature              |   Date Released   |       Code Sample      |         AWS Blog        |       Bedrock Guide         |
+| :----------------------------- | :---------------: | :--------------------: | :---------------------: | :-------------------------: |
+| Batch Inferece | Nov 2023 | | | |
+| Converse API | May 2024 | | | |
+| Invoke Model API | | | | |
+| Cross Region Inference | | | | |
+| Provisioned Throughput | | | | |
 
 ### Projects and Resources
 
@@ -255,69 +273,13 @@ AWS workshop :beginner:
 ## Amazon Bedrock Security
 
 - Amazon Bedrock abuse detection [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/abuse-detection.html)
-
+- Watermark detection for Amazon Titan Image Generator now available in Amazon Bedrock []()
 ## Foundational Models on Amazon Bedrock
 
 - Supported foundation models in Amazon Bedrock [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html)
 - Model support by feature [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/models-features.html)
 - Model support by Region [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html)
 - Model lifecycle [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html)
-
-### Amazon 
-
-|      Category      |           Foundational Models              |      Release Date      |       Blog      |         Research Paper        |
-| :----------------: | :------------------------------------------- | :----------------------: | :---------------: | :-----------------------------: | 
-| Image-to-image | Nova Canvas | 03 Dec 2024 | |
-| Text-to-video, Image-to-video | Nova Reel | 03 Dec 2024 | |
-| Text, Image, Video-to-text | Nova Lite |  03 Dec 2024 | |
-| Text | Nova Micro | 03 Dec 2024 | |
-| Text, Image, Video-to-text | Nova Pro | 03 Dec 2024 | |
-| Rerank | Rerank 1.0 | 01 Dec 2024 | |
-| Text | Amazon Titan Text Premier | 26 Aug 2024 | [:scroll:](https://aws.amazon.com/blogs/aws/build-rag-and-agent-based-generative-ai-applications-with-new-amazon-titan-text-premier-model-available-in-amazon-bedrock/) | |
-| Text-to-image, Image-to-image, Background removal, Image conditioning | Titan Image Generator G1 | 06 Aug 2024 | |
-| Embedding | Titan Text Embeddings V2 | 30 Apr 2024 | |
-| Text-to-image, Image-to-image | Titan Image Generator G1 | 29 Nov 2023 | |
-| Embeddings | Titan Multimodal Embeddings G1 | 29 Nov 2023 | |
-| Text | Titan Text G1 - Express | 29 Nov 2023 | |
-| Text | Titan Text G1 - Lite | 29 Nov 2023 | |
-| Embeddings | Titan Embeddings G1 - Text | 28 Sep 2023 | |
-
-### AI21 Labs
-
-|      Category      |           Foundational Models              |      Release Date      |       Blog      |         Research Paper        |
-| :----------------: | :----------------------------------------- | :--------------------: | :-------------: | :---------------------------: | 
-
-### Anthropic
-
-|      Category      |           Foundational Models              |      Release Date      |       Blog      |         Research Paper        |
-| :----------------: | :----------------------------------------- | :--------------------: | :-------------: | :---------------------------: | 
-
-### Cohere
-
-|      Category      |           Foundational Models              |      Release Date      |       Blog      |         Research Paper        |
-| :----------------: | :----------------------------------------- | :--------------------: | :-------------: | :---------------------------: | 
-
-### Meta
-
-|      Category      |           Foundational Models              |      Release Date      |       Blog      |         Research Paper        |
-| :----------------: | :----------------------------------------- | :--------------------: | :-------------: | :---------------------------: | 
-:
-### Mistral AI
-
-|      Category      |           Foundational Models              |      Release Date      |       Blog      |         Research Paper        |
-| :----------------: | :----------------------------------------- | :--------------------: | :-------------: | :---------------------------: | 
-
-### Stability AI
-
-|      Category      |           Foundational Models              |      Release Date      |       Blog      |         Research Paper        |
-| :----------------: | :----------------------------------------- | :--------------------: | :-------------: | :---------------------------: | 
-| Image | Stable Diffusion 3.5 Large | 18 Dec 2024 | |
-| Image | Stable Image Core 1.0 | 18 Dec 2024 | |
-| Image | Stable Image Ultra 1.0 | 18 Dec 2024 | |
-| Image | SD3 Large 1.0 | 04 Sep 2024 | |
-| Image | Stable Image Core 1.0 | 04 Sep 2024 | |
-| Image | Stable Image Ultra 1.0| 04 Sep 2024 | |
-| Image | SDXL 1.0 | 26 Jul 2023 | |
 
 ## Additional Projects and Guides
 
@@ -329,7 +291,9 @@ AWS workshop :beginner:
 - Amazon Bedrock or Amazon Sagemaker [:orange_book:](https://docs.aws.amazon.com/decision-guides/latest/bedrock-or-sagemaker/bedrock-or-sagemaker.html)
 - Choosing a generative AI service [:orange_book:](https://docs.aws.amazon.com/decision-guides/latest/generative-ai-on-aws-how-to-choose/guide.html)
 - Feature support by Region [:orange_book:](https://docs.aws.amazon.com/bedrock/latest/userguide/features-regions.html)
-
+- Build generative AI apps using AWS Step Functions and Amazon Bedrock [:scroll:](https://aws.amazon.com/blogs/aws/build-generative-ai-apps-using-aws-step-functions-and-amazon-bedrock/?trk=f3da5d15-8262-4ccc-b6ac-edb58d9955e7&sc_channel=el) [:scroll:](https://aws.amazon.com/blogs/machine-learning/orchestrate-generative-ai-workflows-with-amazon-bedrock-and-aws-step-functions/)
+- Amazon Bedrock Serverless Prompt Chaining [:computer:](https://github.com/aws-samples/amazon-bedrock-serverless-prompt-chaining)
+- Amazon Aurora Machine Learning []()
 ## Customer Success Stories
 
 - AWS provided customer innovation stories [:orange_book:](https://aws.amazon.com/solutions/case-studies/generative-ai-customer-videos/?customer-references-cards.sort-by=item.additionalFields.sortDate&customer-references-cards.sort-order=desc&awsf.customer-references-location=*all&awsf.customer-references-industry=*all&awsf.customer-references-use-case=category%23gen-ai&awsf.language=language%23english&awsf.content-type=*all#:~:text=Find%20more%20customer%20innovation%20stories)
