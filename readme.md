@@ -239,6 +239,7 @@ AWS workshop :beginner:
 - Evaluating prompts at scale with Prompt Management and Prompt Flows for Amazon Bedrock [:scroll:](https://aws.amazon.com/blogs/machine-learning/evaluating-prompts-at-scale-with-prompt-management-and-prompt-flows-for-amazon-bedrock/)
 - Prompts Evaluation with Prompt Management & Prompt Flows [:computer:](https://github.com/aws-samples/amazon-bedrock-samples/blob/main/articles-guides/prompt-engineering/Prompt_Management_Flows/Prompts_evaluation_with_Prompt_Management_Flows.ipynb)
 - Amazon Bedrock Prompt Management is now available in GA [:scroll:](https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-prompt-management-is-now-available-in-ga/)
+- Multi-turn conversation with an agent node for Amazon Bedrock Flows [:scroll:](https://aws.amazon.com/blogs/machine-learning/introducing-multi-turn-conversation-with-an-agent-node-for-amazon-bedrock-flows-preview/)
 - Video Demo [:movie_camera:](https://www.youtube.com/watch?v=c9y9K8LsHq8)
 
 ## Amazon Bedrock Invocation Logging
